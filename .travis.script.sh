@@ -1,7 +1,7 @@
 #!/bin/bash -xe
 
 DOCKER_ORG="jaziriahmed"
-DOCKER_IMAGE="myimage"
+DOCKER_IMAGE="example-webserver"
 DOCKER_TAG="latest"
 
 MANIFEST=${DOCKER_ORG}/${DOCKER_IMAGE}:${DOCKER_TAG}
